@@ -30,6 +30,7 @@ export default function Content({
     const ScreenCont = styled.div`
     background-image: url("/content.png");
     height: 100vh;
+    position: fixed;
     `
 
     const HeaderCont = styled.div`
