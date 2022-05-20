@@ -72,6 +72,11 @@ export default function Content({
     height: 3vh;
     color: white;
     `
+
+    const IconCont = styled.img`
+    object-fit: cover;
+    `
+
     return <ScreenCont>
         <SpacerTop />
         <HeaderCont>
@@ -90,7 +95,7 @@ export default function Content({
                 ()=>r.push("/questions/importance")
             }
             >
-                <Img src="/important.png" />
+                <IconCont src="/important.png" />
             </BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/help")
