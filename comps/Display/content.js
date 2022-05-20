@@ -61,6 +61,7 @@ export default function Content({
     border-radius: 12px;
     display: flex;
     width: 20vw;
+    height: 20vw;
     `
     const ButtonCont = styled.div`
     display:flex;
