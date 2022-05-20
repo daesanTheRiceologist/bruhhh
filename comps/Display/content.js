@@ -89,10 +89,12 @@ export default function Content({
             <BottomButton onClick={
                 ()=>r.push("/questions/importance")
             }
-            >!</BottomButton>
+            >
+                <Img src="/important.png" />
+            </BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/help")
-            }>Help</BottomButton>
+            }>hll</BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/dying")
             }>Bees are dying</BottomButton>
