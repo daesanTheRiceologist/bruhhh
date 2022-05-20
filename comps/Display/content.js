@@ -100,13 +100,19 @@ export default function Content({
             </BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/help")
-            }>hll</BottomButton>
+            }>
+                <IconCont src="/help.png" />
+            </BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/dying")
-            }>Bees are dying</BottomButton>
+            }>
+                <IconCont src="/dying.png" />
+            </BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/statistics")
-            }>Statistics</BottomButton>
+            }>
+                <IconCont src="/statistics.png" />
+            </BottomButton>
         </ButtonCont>
     </ScreenCont>
   }
