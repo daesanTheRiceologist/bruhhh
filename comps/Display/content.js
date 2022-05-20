@@ -92,7 +92,7 @@ export default function Content({
             >!</BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/help")
-            }>How to help</BottomButton>
+            }>Help</BottomButton>
             <BottomButton onClick={
                 ()=>r.push("/questions/dying")
             }>Bees are dying</BottomButton>
